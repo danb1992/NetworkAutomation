@@ -5,7 +5,7 @@ from getpass import getpass
 # TODO:
 # Create a dictionary w/ site-id:ip-address key-value pairs
 # Utilize dictionary instead of needing to know device IP address
-# Convert (if possible) lines 11-21 to a function or class
+# Convert (if possible) lines 10-20 to a function or class
 
 ip = input("IP Address: ")
 username = input("Username: ")
