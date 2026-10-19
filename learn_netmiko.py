@@ -9,7 +9,7 @@ device = {
     "ip": "192.168.0.26",
     "username": input("Enter username: "),
     "password": getpass("Enter password: ",echo_char="*"),
-    "secret": getpass("Enter enable secret: ",echo_char="#"),
+    "secret": getpass("Enter enable secret: ",echo_char="*"),
     "port": 22,
     "session_log": "session_log.txt"
 }
