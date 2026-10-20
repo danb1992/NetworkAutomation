@@ -11,7 +11,7 @@ device = {
     "ip": "192.168.0.26",
     "username": input("Enter username: "),
     "password": getpass("Enter password: ",echo_char="*"), # 'echo_char' shows visible '*' as characters are inputted
-    "secret": getpass("Enter enable secret: ",echo_char="*"), # Not needed if login account is priv 15
+    "secret": getpass("Enter enable secret: ",echo_char="*"), # 'secret' Not needed if login account is priv 15
     "port": 22,
     "session_log": "session_log.txt" # Appends device output to this txt file (good for troubleshooting)
 }
