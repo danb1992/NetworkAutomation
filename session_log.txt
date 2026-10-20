@@ -1,0 +1,30 @@
+S1-2960X#
+S1-2960X#terminal width 511
+S1-2960X#terminal length 0
+S1-2960X#
+S1-2960X#
+S1-2960X#
+S1-2960X#show ip interface brief | exclude unassigned
+Interface              IP-Address      OK? Method Status                Protocol
+Vlan321                192.168.0.26    YES DHCP   up                    up      
+Loopback100            10.255.255.1    YES manual up                    up      
+
+S1-2960X#
+S1-2960X#show run interface Loopback100
+Building configuration...
+
+Current configuration : 125 bytes
+!
+interface Loopback100
+ description Configured via Netmiko
+ ip address 10.255.255.1 255.255.255.255
+ downshift disable
+end
+
+S1-2960X#
+S1-2960X#
+S1-2960X#write mem
+Building configuration...
+[OK]
+S1-2960X#
+S1-2960X#exit
