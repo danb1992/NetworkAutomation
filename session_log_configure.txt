@@ -1,0 +1,59 @@
+S1-2960X#
+S1-2960X#terminal width 511
+S1-2960X#terminal length 0
+S1-2960X#
+S1-2960X#
+S1-2960X#configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+S1-2960X(config)#
+S1-2960X(config)#interface Loopback1
+S1-2960X(config-if)#description Configured using Netmiko send_config_set() method
+S1-2960X(config-if)#ip address 10.0.0.1 255.255.255.255
+S1-2960X(config-if)#no shutdown
+S1-2960X(config-if)#
+S1-2960X(config-if)#end
+S1-2960X#
+S1-2960X#
+S1-2960X#configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+S1-2960X(config)#
+S1-2960X(config)#interface Loopback2
+S1-2960X(config-if)#description Configured using Netmiko send_config_from_file() method
+S1-2960X(config-if)#ip address 10.0.0.2 255.255.255.255
+S1-2960X(config-if)#no shutdown
+S1-2960X(config-if)#
+S1-2960X(config-if)#end
+S1-2960X#
+S1-2960X#
+S1-2960X#
+S1-2960X#
+S1-2960X#show run interface Loopback1
+Building configuration...
+
+Current configuration : 146 bytes
+!
+interface Loopback1
+ description Configured using Netmiko send_config_set() method
+ ip address 10.0.0.1 255.255.255.255
+ downshift disable
+end
+
+S1-2960X#
+S1-2960X#show run interface Loopback2
+Building configuration...
+
+Current configuration : 152 bytes
+!
+interface Loopback2
+ description Configured using Netmiko send_config_from_file() method
+ ip address 10.0.0.2 255.255.255.255
+ downshift disable
+end
+
+S1-2960X#
+S1-2960X#
+S1-2960X#write mem
+Building configuration...
+[OK]
+S1-2960X#
+S1-2960X#exit
