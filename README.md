@@ -5,3 +5,4 @@ The projects in this repo will be subject to many updates as I learn new ways to
 Updates:
 + October 19, 2026 - Created "learn_netmiko.py" and "session_log.txt" to document Netmiko learning journey
 + October 20, 2026 - Created "learn_netmiko_configure.py", "configure_loopback2.txt", and "session_log_configure.txt" to document continured Netmiko learning journey
++ October 25, 2026 - Created "learn_netmiko_multidevice.py" to document continued Netmiko learning journey
