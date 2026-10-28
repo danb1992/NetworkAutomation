@@ -9,3 +9,6 @@ Updates:
 + October 20, 2026 - Created "learn_netmiko_configure.py", "configure_loopback2.txt", and "session_log_configure.txt" to document continured Netmiko learning journey
 + October 25, 2026 - Created "learn_netmiko_multidevice.py" to document continued Netmiko learning journey
 + October 26, 2026 - Created "learn_netmiko_multidevice2.py" to document continued Netmiko learning journey
++ October 27, 2026
+  - Moved all Netmiko files into new Netmiko directory.
+  - Created NAPALM directory and "learn_napalm.py" to document NAPALM learning journey
