@@ -5,10 +5,19 @@ As I progress with my automation and programmability skills, I will eventually s
 Feel free to reach out with any questions, comments, and feedback. As much as this journey is my individual path, I gladly welcome input from other engineers whom are more expeienced!
 
 Updates:
-+ October 19, 2026 - Created "learn_netmiko.py" and "session_log.txt" to document Netmiko learning journey
-+ October 20, 2026 - Created "learn_netmiko_configure.py", "configure_loopback2.txt", and "session_log_configure.txt" to document continured Netmiko learning journey
-+ October 25, 2026 - Created "learn_netmiko_multidevice.py" to document continued Netmiko learning journey
-+ October 26, 2026 - Created "learn_netmiko_multidevice2.py" to document continued Netmiko learning journey
++ October 19, 2026
+  - Created new files to document Netmiko learning journey:
+    - "learn_netmiko.py"
+    - "session_log.txt"
++ October 20, 2026
+  - Created new files to document continued Netmiko learning journey:
+    - "learn_netmiko_configure.py"
+    - "configure_loopback2.txt"
+    - "session_log_configure.txt"
++ October 25, 2026
+  - Created "learn_netmiko_multidevice.py" to document continued Netmiko learning journey
++ October 26, 2026
+  - Created "learn_netmiko_multidevice2.py" to document continued Netmiko learning journey
 + October 27, 2026
   - Moved all Netmiko files into new Netmiko directory.
   - Created NAPALM directory and "learn_napalm.py" to document NAPALM learning journey
